@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  />
+  <title>Черная дыра</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top-screens">
+    <div class="top-screens-bg">
+      <img src="фон1.svg" alt="" class="top-screens-bg-image" />
+    </div>
+
+    <div class="top-screens-overlay"></div>
+
+    <main class="hero" id="hero">
+      <div class="hero-counter">
+        *ЗАСОСАЛО <span id="counterValue">0</span> АСТРОНАВТОВ*
+      </div>
+
+      <div class="hero-back-text">
+        <span>HSE ART AND DESIGN SCHOOL</span>
+      </div>
+
+      <div class="center-stage">
+        <div class="black-hole-wrap">
+          <div class="black-hole" id="blackHole">
+            <div class="black-hole-ring"></div>
+            <div class="black-hole-core"></div>
+            <div class="black-hole-glow"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hole-word" id="holeWord">ДЫРАА</div>
+
+      <div class="hero-description">
+        Чёрные дыры — одни из самых загадочных объектов во Вселенной, они
+        образуются, когда очень массивная звезда исчерпывает своё топливо и её
+        ядро коллапсирует под действием собственной гравитации.
+      </div>
+
+      <div class="astronaut-layer" id="astronautLayer"></div>
+    </main>
+
+    <section class="astro-screen" id="astroScreen">
+      <div class="astro-word astro-word-1">
+        <span>Гармония</span>
+        <span>миров</span>
+      </div>
+
+      <div class="astro-word astro-word-2">
+        <span>Край</span>
+        <span>Бесконечности</span>
+      </div>
+
+      <div class="astro-word astro-word-3">
+        <span>Алкогольное</span>
+        <span>Облако</span>
+      </div>
+
+      <div class="astro-word astro-word-4">
+        <span>Поверхность</span>
+        <span>Время</span>
+      </div>
+
+      <div class="astro-word astro-word-5">
+        <span>Космический</span>
+        <span>Океан</span>
+      </div>
+
+      <div class="astro-word astro-word-6">
+        <span>Алмазный</span>
+        <span>Дождь</span>
+      </div>
+
+      <div class="astro-word astro-word-7">
+        <span>Черная</span>
+        <span>Дыра</span>
+      </div>
+
+      <div class="balloons-layer" id="balloonsLayer"></div>
+    </section>
+  </div>
+
+  <section class="space-message-screen" id="spaceMessageScreen">
+    <div class="space-message-cosmos" id="spaceMessageCosmos">
+      <img src="фон1.svg" alt="" class="space-message-cosmos-image" />
+    </div>
+
+    <div class="space-message-light" id="spaceMessageLight"></div>
+
+    <div class="space-message-top">
+      <img src="up.svg" alt="" class="space-message-top-image" />
+    </div>
+
+    <div class="space-message-center">
+      <h2 class="space-message-title" id="spaceMessageTitle">
+        <span>КОСМОС</span>
+        <span>БОЛЬШЕ</span>
+        <span>НЕ ДАЛЕКО</span>
+      </h2>
+    </div>
+
+    <div class="space-message-bottom">
+      <img src="down.svg" alt="" class="space-message-bottom-image" />
+    </div>
+  </section>
+
+  <section class="final-screen" id="finalScreen">
+    <div class="final-screen-bg">
+      <img src="фон1.svg" alt="" class="final-screen-bg-image" />
+    </div>
+
+    <div class="final-screen-overlay"></div>
+
+    <div class="final-quotes">
+      <img src="quotes.png" alt="" class="final-quotes-image" />
+    </div>
+
+    <div class="final-lines" id="finalLines">
+      <div class="final-line final-line-1">ВСЕЛЕННАЯ<br>НЕ ОГРАНИЧИВАЕТСЯ<br>ПРИВЫЧНЫМ.</div>
+      <div class="final-line final-line-2">ЗА ПРЕДЕЛАМИ</div>
+      <div class="final-line final-line-3">ВОЗНИКАЮТ ЯВЛЕНИЯ,</div>
+      <div class="final-line final-line-4">КОТОРЫЕ КАЖУТСЯ</div>
+      <div class="final-line final-line-5">НЕВОЗМОЖНЫМИ.</div>
+      <div class="final-line final-line-6 final-line-bold">МАТЕРИЯ</div>
+      <div class="final-line final-line-7">ВЕДЁТ СЕБЯ ИНАЧЕ.</div>
+      <div class="final-line final-line-8">ИМЕННО ТАМ</div>
+      <div class="final-line final-line-9">НАЧИНАЕТСЯ</div>
+      <div class="final-line final-line-10">САМОЕ</div>
+      <div class="final-line final-line-11 final-line-big">ИНТЕРЕСНОЕ...</div>
+    </div>
+
+    <div class="final-click-hint" id="finalClickHint">
+      НАЖИМАЙ
+    </div>
+
+    <div class="final-footer-bg"></div>
+
+    <div class="final-footer">
+      <div class="final-footer-left">Никифорова Лиза</div>
+      <div class="final-footer-right">БРИЦП252</div>
+    </div>
+  </section>
+
+  <audio id="bgSound" src="system.mp3" preload="auto" loop></audio>
+
+  <script src="https://unpkg.com/matter-js@0.20.0/build/matter.min.js"></script>
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
